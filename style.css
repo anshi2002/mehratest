@@ -1,0 +1,88 @@
+.navbar.navbar-expand-sm {
+  background-color: red;
+}
+
+.btn {
+  color: white;
+  background-color: red;
+  border: white;
+  border: 2px solid white;
+  font-weight: 700;
+}
+
+.logo {
+  color: white;
+  font-style: unset;
+  font-weight: 800px;
+  text-justify: auto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 769;
+  font-size: 56px;
+  line-height: 52px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 156% */
+  /* Neutrals/4 */
+  color: #777E91;
+}
+
+ul li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 15px;
+}
+
+.col-md-12.py-5 {
+  text-align-last: end;
+}
+
+.footer-bottom {
+  background: #e3e3e3;
+  ;
+  padding: 16px 0;
+}
+
+.section-title:before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  /*left: 0;*/
+  width: 62px;
+  height: 4px;
+  background: #E00025;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+a {
+  color: #848484;
+  transition: .5s ease-in-out;
+  width: 34px;
+  height: 32px;
+  text-align: center;
+  /*line-height: 32px;*/
+  border: 1px solid #848484;
+}
+
+.social {}
+
+.social a {
+  padding: 10px;
+  margin: 0px 5px;
+}
